@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			  android:orientation="vertical"
+			  android:id="@+id/layout"
+			  android:layout_width="fill_parent"
+			  android:layout_height="fill_parent"
+		>
+	<RatingBar
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/ratingBar" android:layout_gravity="center_horizontal" android:numStars="5"
+			android:rating="1" android:stepSize="1"/>
+	<EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/billAmount"
+			  android:layout_gravity="center_horizontal" android:gravity="right" android:hint="Bill Amount"
+			  android:editable="true"/>
+	<EditText
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/tipAmount" android:layout_gravity="center_horizontal" android:gravity="right"
+			android:text="0.00"/>
+	<EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/totalAmount"
+			  android:layout_gravity="center_horizontal" android:gravity="right" android:text="0.00"/>
+</LinearLayout>
+
